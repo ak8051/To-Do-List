@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.con {
+    text-align: center;
+    background-color: aquamarine;
+    max-width: 465px;
+    margin: auto;
+    margin-top: 10%;
+    border-bottom: 5px solid darkcyan;
+    border-radius: 10px;
+    padding: 4%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.head {
+    background-color: lightblue;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 4%;
+	padding: 2.5%;
+}
+
+.con label{
+    display: block;
+    margin-bottom: 2%;
+}
+
+.Card {
+	padding: 4.5%;
+	text-align: left;
+	width: 50%;
+	margin: 5% auto;
+	background-color: rgb(162, 209, 220);
+	border-radius: 10px;
+}
+
+.btn {
+	padding: 0.5% 1.5%;
+	margin-top: 2.3%;
+	border: none;
+	border-bottom: solid darkgreen 2px;
+	border-radius: 5px;
+	transition: all 0.5s;
+	box-shadow: 4px 4px gray;
+}
+
+.add {
+	background-color: aliceblue;
+}
+
+.add:hover {
+	background-color: darkgray;
+	box-shadow: 2px 2px darkslategray;
+}
+
+.add:active{
+	background-color: bisque;
+}
+
+.done {
+	background-color: aliceblue;
+}
+
+.done:hover {
+	background-color: darkgray;
+	box-shadow: 2px 2px darkslategray;
+}
+
+.done:active{
+	background-color: bisque;
+}
+
+.error {
+	background-color: #cb3c2f;
+	padding: 2.5%;
+	border-radius: 2.5%;
+	width: 80%;
+	margin: auto;
+	color: #eee;
+	box-shadow: #36634534 5px 5px;
+	padding: 2%;
+	margin: 2% auto;
+}
